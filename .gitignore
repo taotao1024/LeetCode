@@ -2,6 +2,7 @@
 .idea/
 target/
 *.iml
+*.json
 
 # Compiled class file
 *.class
