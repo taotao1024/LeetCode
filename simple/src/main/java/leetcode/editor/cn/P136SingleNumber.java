@@ -46,6 +46,13 @@ public class P136SingleNumber {
             return single;
         }
 
+
+        /**
+         * 比较
+         *
+         * @param nums 数组
+         * @return
+         */
         public int singleNumber(int[] nums) {
             int length = nums.length;
             if (length == 1) {
