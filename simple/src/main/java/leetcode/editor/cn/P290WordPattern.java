@@ -30,6 +30,7 @@ package leetcode.editor.cn;
 // 👍 265 👎 0
 
 import java.util.HashMap;
+import java.util.logging.Level;
 
 public class P290WordPattern {
     public static void main(String[] args) {
@@ -39,6 +40,13 @@ public class P290WordPattern {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+        /**
+         * 暴力破解
+         *
+         * @param pattern "abba"
+         * @param s       "dog cat cat dog"
+         * @return boolean
+         */
         public boolean wordPattern(String pattern, String s) {
             if (s == null || pattern == null) {
                 return false;
@@ -48,7 +56,6 @@ public class P290WordPattern {
             if (sArray.length != patternArray.length) {
                 return false;
             }
-
             final HashMap<String, String> map = new HashMap<>();
             for (int i = 0; i < patternArray.length; i++) {
                 if (map.containsKey(patternArray[i])) {
@@ -65,8 +72,49 @@ public class P290WordPattern {
             }
             return true;
         }
-        public boolean wordPattern2(String pattern, String s) {
 
+        /**
+         * 状态机待调整
+         *
+         * @param pattern "abba"
+         * @param s       "dog cat cat dog"
+         * @return boolean
+         */
+        public boolean wordPattern2(String pattern, String s) {
+            if (s == null || pattern == null) {
+                return false;
+            }
+            final String[] sArray = s.split(" ");
+            final String[] patternArray = pattern.split("");
+            if (sArray.length != patternArray.length) {
+                return false;
+            }
+            // 状态枚举 : 0存在、1不存在
+            int status = 1;
+            final HashMap<String, String> map = new HashMap<>();
+            for (int i = 0; i < patternArray.length; i++) {
+                switch (status) {
+                    case 0: // 存在
+                        if (map.containsValue(sArray[i])) {
+                            return false;
+                        } else {
+                            status = 1;
+                            map.put(patternArray[i], sArray[i]);
+                        }
+                        break;
+                    case 1: // 不存在
+                        if (!map.containsKey(patternArray[i])) {
+                            status = 0;
+                        } else {
+                            if (!map.get(patternArray[i]).equals(sArray[i])) {
+                                return false;
+                            } else {
+                                map.put(patternArray[i], sArray[i]);
+                            }
+                        }
+                    default:
+                }
+            }
             return true;
         }
     }
