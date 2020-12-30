@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[290]单词规律",
-    "frontendQuestionId": "290",
+    "formTitle": "[330]按要求补齐数组",
+    "frontendQuestionId": "330",
     "leaf": true,
-    "level": 1,
+    "level": 3,
     "nodeType": "def",
-    "questionId": "290",
-    "status": "ac",
-    "title": "单词规律",
-    "titleSlug": "word-pattern"
+    "questionId": "330",
+    "status": "",
+    "title": "按要求补齐数组",
+    "titleSlug": "patching-array"
   },
   {
     "articleLive": 2,
@@ -1237,14 +1237,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[103]二叉树的锯齿形层次遍历",
+    "formTitle": "[103]二叉树的锯齿形层序遍历",
     "frontendQuestionId": "103",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
     "questionId": "103",
     "status": "",
-    "title": "二叉树的锯齿形层次遍历",
+    "title": "二叉树的锯齿形层序遍历",
     "titleSlug": "binary-tree-zigzag-level-order-traversal"
   },
   {
@@ -1285,14 +1285,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[107]二叉树的层次遍历 II",
+    "formTitle": "[107]二叉树的层序遍历 II",
     "frontendQuestionId": "107",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "107",
     "status": "",
-    "title": "二叉树的层次遍历 II",
+    "title": "二叉树的层序遍历 II",
     "titleSlug": "binary-tree-level-order-traversal-ii"
   },
   {
@@ -1528,7 +1528,7 @@
     "formTitle": "[127]单词接龙",
     "frontendQuestionId": "127",
     "leaf": true,
-    "level": 2,
+    "level": 3,
     "nodeType": "def",
     "questionId": "127",
     "status": "",
@@ -3481,6 +3481,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[290]单词规律",
+    "frontendQuestionId": "290",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "290",
+    "status": "ac",
+    "title": "单词规律",
+    "titleSlug": "word-pattern"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[291]单词规律 II",
     "frontendQuestionId": "291",
     "leaf": true,
@@ -3949,18 +3961,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[330]按要求补齐数组",
-    "frontendQuestionId": "330",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "330",
-    "status": "",
-    "title": "按要求补齐数组",
-    "titleSlug": "patching-array"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[331]验证二叉树的前序序列化",
     "frontendQuestionId": "331",
     "leaf": true,
@@ -4072,7 +4072,7 @@
     "formTitle": "[340]至多包含 K 个不同字符的最长子串",
     "frontendQuestionId": "340",
     "leaf": true,
-    "level": 3,
+    "level": 2,
     "nodeType": "def",
     "questionId": "340",
     "status": "lock",
@@ -4903,7 +4903,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "409",
-    "status": "",
+    "status": "ac",
     "title": "最长回文串",
     "titleSlug": "longest-palindrome"
   },
@@ -5425,14 +5425,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[453]最小移动次数使数组元素相等",
+    "formTitle": "[453]最小操作次数使数组元素相等",
     "frontendQuestionId": "453",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "453",
     "status": "",
-    "title": "最小移动次数使数组元素相等",
+    "title": "最小操作次数使数组元素相等",
     "titleSlug": "minimum-moves-to-equal-array-elements"
   },
   {
@@ -7153,14 +7153,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[597]好友申请 I ：总体通过率",
+    "formTitle": "[597]好友申请 I：总体通过率",
     "frontendQuestionId": "597",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "597",
     "status": "lock",
-    "title": "好友申请 I ：总体通过率",
+    "title": "好友申请 I：总体通过率",
     "titleSlug": "friend-requests-i-overall-acceptance-rate"
   },
   {
@@ -7717,14 +7717,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[644]最大平均子段和 II",
+    "formTitle": "[644]子数组最大平均数 II",
     "frontendQuestionId": "644",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
     "questionId": "644",
     "status": "lock",
-    "title": "最大平均子段和 II",
+    "title": "子数组最大平均数 II",
     "titleSlug": "maximum-average-subarray-ii"
   },
   {
@@ -19819,7 +19819,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "1755",
-    "status": "",
+    "status": "ac",
     "title": "拆炸弹",
     "titleSlug": "defuse-the-bomb"
   },
@@ -19939,7 +19939,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "1781",
-    "status": "",
+    "status": "ac",
     "title": "检查两个字符串数组是否相等",
     "titleSlug": "check-if-two-string-arrays-are-equivalent"
   },
@@ -20059,7 +20059,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "1791",
-    "status": "",
+    "status": "ac",
     "title": "最富有客户的资产总量",
     "titleSlug": "richest-customer-wealth"
   },
@@ -20290,6 +20290,198 @@
     "status": "",
     "title": "堆叠长方体的最大高度",
     "titleSlug": "maximum-height-by-stacking-cuboids"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1692]Count Ways to Distribute Candies",
+    "frontendQuestionId": "1692",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1828",
+    "status": "lock",
+    "title": "Count Ways to Distribute Candies",
+    "titleSlug": "count-ways-to-distribute-candies"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1693]Daily Leads and Partners",
+    "frontendQuestionId": "1693",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1837",
+    "status": "lock",
+    "title": "Daily Leads and Partners",
+    "titleSlug": "daily-leads-and-partners"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1694]重新格式化电话号码",
+    "frontendQuestionId": "1694",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1812",
+    "status": "",
+    "title": "重新格式化电话号码",
+    "titleSlug": "reformat-phone-number"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1695]删除子数组的最大得分",
+    "frontendQuestionId": "1695",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1813",
+    "status": "",
+    "title": "删除子数组的最大得分",
+    "titleSlug": "maximum-erasure-value"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1696]跳跃游戏 VI",
+    "frontendQuestionId": "1696",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1814",
+    "status": "",
+    "title": "跳跃游戏 VI",
+    "titleSlug": "jump-game-vi"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1697]检查边长度限制的路径是否存在",
+    "frontendQuestionId": "1697",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1815",
+    "status": "",
+    "title": "检查边长度限制的路径是否存在",
+    "titleSlug": "checking-existence-of-edge-length-limited-paths"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1698]字符串的不同子字符串个数",
+    "frontendQuestionId": "1698",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1838",
+    "status": "lock",
+    "title": "字符串的不同子字符串个数",
+    "titleSlug": "number-of-distinct-substrings-in-a-string"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1699]Number of Calls Between Two Persons",
+    "frontendQuestionId": "1699",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1842",
+    "status": "lock",
+    "title": "Number of Calls Between Two Persons",
+    "titleSlug": "number-of-calls-between-two-persons"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1700]无法吃午餐的学生数量",
+    "frontendQuestionId": "1700",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1802",
+    "status": "",
+    "title": "无法吃午餐的学生数量",
+    "titleSlug": "number-of-students-unable-to-eat-lunch"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1701]平均等待时间",
+    "frontendQuestionId": "1701",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1803",
+    "status": "",
+    "title": "平均等待时间",
+    "titleSlug": "average-waiting-time"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1702]修改后的最大二进制字符串",
+    "frontendQuestionId": "1702",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1804",
+    "status": "",
+    "title": "修改后的最大二进制字符串",
+    "titleSlug": "maximum-binary-string-after-change"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1703]得到连续 K 个 1 的最少相邻交换次数",
+    "frontendQuestionId": "1703",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1805",
+    "status": "",
+    "title": "得到连续 K 个 1 的最少相邻交换次数",
+    "titleSlug": "minimum-adjacent-swaps-for-k-consecutive-ones"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1704]判断字符串的两半是否相似",
+    "frontendQuestionId": "1704",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1823",
+    "status": "",
+    "title": "判断字符串的两半是否相似",
+    "titleSlug": "determine-if-string-halves-are-alike"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1705]吃苹果的最大数目",
+    "frontendQuestionId": "1705",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1824",
+    "status": "",
+    "title": "吃苹果的最大数目",
+    "titleSlug": "maximum-number-of-eaten-apples"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1706]球会落何处",
+    "frontendQuestionId": "1706",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1324",
+    "status": "",
+    "title": "球会落何处",
+    "titleSlug": "where-will-the-ball-fall"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1707]与数组中元素的最大异或值",
+    "frontendQuestionId": "1707",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1826",
+    "status": "",
+    "title": "与数组中元素的最大异或值",
+    "titleSlug": "maximum-xor-with-an-element-from-array"
   },
   {
     "articleLive": 2,

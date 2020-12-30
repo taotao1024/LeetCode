@@ -30,7 +30,6 @@ package leetcode.editor.cn;
 // 👍 265 👎 0
 
 import java.util.HashMap;
-import java.util.logging.Level;
 
 public class P290WordPattern {
     public static void main(String[] args) {
@@ -74,7 +73,7 @@ public class P290WordPattern {
         }
 
         /**
-         * 状态机待调整
+         * 状态机 待调整
          *
          * @param pattern "abba"
          * @param s       "dog cat cat dog"
